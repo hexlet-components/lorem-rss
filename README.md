@@ -5,7 +5,7 @@ answer a [question I asked on Stack Overflow](http://stackoverflow.com/questions
 
 ## API
 
-Visit [http://lorem-rss.herokuapp.com/feed](http://lorem-rss.herokuapp.com/feed), with the following optional parameters:
+Visit [https://lorem-rss.hexlet.app/feed](https://lorem-rss.hexlet.app/feed), with the following optional parameters:
 
 *   _unit_: one of second, minute, day, month, or year
 *   _interval_: an integer to repeat the units at. For seconds and minutes this interval must evenly divide 60, for month it must evenly divide 12, and for day and year it can only be 1.
