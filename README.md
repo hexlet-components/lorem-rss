@@ -3,6 +3,15 @@
 Generates RSS feeds with content updated at regular intervals. I wrote this to
 answer a [question I asked on Stack Overflow](http://stackoverflow.com/questions/18202048/are-there-any-constantly-updating-rss-feed-services-to-use-for-testing-or-just).
 
+## Зачем это нужно
+
+Сервис отдаёт RSS-ленту с выдуманными записями, которая **обновляется по
+расписанию**: раз в минуту, час или день, как попросишь параметрами запроса.
+
+Это и есть его смысл. Чтобы проверить читалку лент или парсер RSS, нужна лента,
+в которой предсказуемо появляются новые записи. Настоящие ленты обновляются
+когда захотят, а тестовый файл не обновляется вовсе.
+
 ## API
 
 Visit [https://lorem-rss.hexlet.app/feed](https://lorem-rss.hexlet.app/feed), with the following optional parameters:
