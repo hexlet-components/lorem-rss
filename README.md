@@ -16,32 +16,32 @@ answer a [question I asked on Stack Overflow](http://stackoverflow.com/questions
 
 Visit [https://lorem-rss.hexlet.app/feed](https://lorem-rss.hexlet.app/feed), with the following optional parameters:
 
-*   _unit_: one of second, minute, day, month, or year
-*   _interval_: an integer to repeat the units at. For seconds and minutes this interval must evenly divide 60, for month it must evenly divide 12, and for day and year it can only be 1.
-*   _length_: an integer that determines the number of items in the feed. Must be greater or equal to 0 and smaller or equal to 1000. Defaults to 10 items.
+- _unit_: one of second, minute, day, month, or year
+- _interval_: an integer to repeat the units at. For seconds and minutes this interval must evenly divide 60, for month it must evenly divide 12, and for day and year it can only be 1.
+- _length_: an integer that determines the number of items in the feed. Must be greater or equal to 0 and smaller or equal to 1000. Defaults to 10 items.
 
 ## Examples
 
-*   The default, updates once a minute, with 10 entries: [/feed](http://lorem-rss.herokuapp.com/feed)
-*   Update every second instead of minute: [/feed?unit=second](http://lorem-rss.herokuapp.com/feed?unit=second)
-*   Update every 30 seconds: [/feed?unit=second&interval=30](http://lorem-rss.herokuapp.com/feed?unit=second&interval=30)
-*   Update once a day: [/feed?unit=day](http://lorem-rss.herokuapp.com/feed?unit=day)
-*   Update every 6 months: [/feed?unit=month&interval=6](http://lorem-rss.herokuapp.com/feed?unit=month&interval=6)
-*   Update once a year: [/feed?unit=year](http://lorem-rss.herokuapp.com/feed?unit=year)
-*   Default feed with 42 entries: [/feed?length=42"](http://lorem-rss.herokuapp.com/feed?length=42)
-*   **Invalid example:** update every 7 minutes (does not evenly divide 60): [/feed?unit=minute&interval=7](http://lorem-rss.herokuapp.com/feed?unit=minute&interval=7)
+- The default, updates once a minute, with 10 entries: [/feed](http://lorem-rss.herokuapp.com/feed)
+- Update every second instead of minute: [/feed?unit=second](http://lorem-rss.herokuapp.com/feed?unit=second)
+- Update every 30 seconds: [/feed?unit=second&interval=30](http://lorem-rss.herokuapp.com/feed?unit=second&interval=30)
+- Update once a day: [/feed?unit=day](http://lorem-rss.herokuapp.com/feed?unit=day)
+- Update every 6 months: [/feed?unit=month&interval=6](http://lorem-rss.herokuapp.com/feed?unit=month&interval=6)
+- Update once a year: [/feed?unit=year](http://lorem-rss.herokuapp.com/feed?unit=year)
+- Default feed with 42 entries: [/feed?length=42"](http://lorem-rss.herokuapp.com/feed?length=42)
+- **Invalid example:** update every 7 minutes (does not evenly divide 60): [/feed?unit=minute&interval=7](http://lorem-rss.herokuapp.com/feed?unit=minute&interval=7)
 
 ## Running locally
 
 The project contains a Dockerfile that can be used to run Lorem RSS locally. Build via:
 
-```
+```text
 docker build . -t lorem-rss
 ```
 
 Run via:
 
-```
+```text
 docker run --rm -it -p 5000:5000 lorem-rss
 ```
 
