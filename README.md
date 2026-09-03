@@ -1,16 +1,12 @@
 # Lorem RSS
 
-Generates RSS feeds with content updated at regular intervals. I wrote this to
-answer a [question I asked on Stack Overflow](http://stackoverflow.com/questions/18202048/are-there-any-constantly-updating-rss-feed-services-to-use-for-testing-or-just).
+Generates RSS feeds with content updated at regular intervals. I wrote this to answer a [question I asked on Stack Overflow](http://stackoverflow.com/questions/18202048/are-there-any-constantly-updating-rss-feed-services-to-use-for-testing-or-just).
 
 ## Зачем это нужно
 
-Сервис отдаёт RSS-ленту с выдуманными записями, которая **обновляется по
-расписанию**: раз в минуту, час или день, как попросишь параметрами запроса.
+Сервис отдаёт RSS-ленту с выдуманными записями, которая **обновляется по расписанию**: раз в минуту, час или день, как попросишь параметрами запроса.
 
-Это и есть его смысл. Чтобы проверить читалку лент или парсер RSS, нужна лента,
-в которой предсказуемо появляются новые записи. Настоящие ленты обновляются
-когда захотят, а тестовый файл не обновляется вовсе.
+Это и есть его смысл. Чтобы проверить читалку лент или парсер RSS, нужна лента, в которой предсказуемо появляются новые записи. Настоящие ленты обновляются когда захотят, а тестовый файл не обновляется вовсе.
 
 ## API
 
@@ -59,20 +55,8 @@ The MIT License (MIT)
 
 Copyright (c) 2013 Michael Bertolacci
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
