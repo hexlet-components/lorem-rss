@@ -22,7 +22,7 @@
     "rss": "^1.2.2",
     "seed-random": "~2.2.0"
   },
-  "packageManager": "pnpm@11.24.0",
+  "packageManager": "pnpm@12.6.0",
   "devDependencies": {
     "oxfmt": "^0.65.0",
     "oxlint": "^1.80.0"
